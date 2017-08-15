@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Parser</title>
+    <meta charset="utf-8">
+<body>
+    <h1>Parser for your logs</h1>
+
+    <p>Input file path</p>
+    <form action="http://localhost:8080/servlet" method="GET">
+        <input name="path" type="text">
+
+        <fieldset>
+            <legend>Regular expressions </legend>
+            <p><label>1  </label><input name="regExp1" type="text"></p>
+            <p><label>2  </label><input name="regExp2" type="text"></p>
+            <p><label>3  </label><input name="regExp3" type="text"></p>
+            <p><label>4  </label><input name="regExp4" type="text"></p>
+            <p><label>5  </label><input name="regExp5" type="text"></p>
+        </fieldset>
+
+        <p><label>Min count of repeat  </label><input name="count" type="text"></p>
+
+        <fieldset>
+            <legend>Input date1 and date2</legend>
+            <b>The first date must be early</b>
+            <p><label>date1  </label><input name="date1" type="text"></p>
+            <p><label>date2  </label><input name="date2" type="text"></p>
+            <input type="submit">
+        </fieldset>
+           </form>
+
+</body>
+
+</head>
+</html> 

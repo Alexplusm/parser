@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="jQuery.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+<body>
+
+<script type="text/javascript">
+	$(document).on("click", function(e) {
+  if (e.target.id != 'button' && e.target.id != 'menu') {
+    $("#menu").hide();
+  } else if (e.target.id != 'menu') {
+    $("#menu").toggle();
+  }
+});
+</script>
+
+<div id="div0" class="someDiv">Count of repeat:  1    c.documentum.rosatom.search.impl.PretreatmentSearchExService - Unexpected object type in process user pretreatment 'class com.croc.documentum.rosatom.model.instruction.commission.CommissionModel' (ID: 0900012daf83cde2)</div>
+<div id="button" class="buttonclick">show stacktrace</div>
+<div id="menu" class="menuclick">меню</div>
+
+
+</body>
+</html>
